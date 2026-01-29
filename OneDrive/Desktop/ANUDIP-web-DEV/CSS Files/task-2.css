@@ -1,0 +1,28 @@
+.box {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    overflow: auto;
+}
+
+/* 1st div: border + image */
+.border-box {
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* 2nd div: background image + background-attachment */
+.bg-box {
+    background-image: url("https://via.placeholder.com/300/0000ff");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    border: 2px dashed blue;
+}
+
+/* 3rd div: normal div + image */
+.normal-box {
+    border: 1px solid gray;
+    text-align: center;
+}

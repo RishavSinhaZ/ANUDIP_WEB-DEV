@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    padding: 15px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 300px;
+    margin-top: 70px;
+    background: #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ABOUT SECTION */
+.about {
+    padding: 40px;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 50%;
+}
+
+.image {
+    width: 40%;
+    height: 150px;
+    background: #ddd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BUTTON SECTION */
+.order {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+/* FOOTER */
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

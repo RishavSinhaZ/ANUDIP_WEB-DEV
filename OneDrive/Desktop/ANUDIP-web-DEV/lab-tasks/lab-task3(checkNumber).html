@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check Number Assignment</title>
+</head>
+<body>
+
+    <h2>Check Number Assignment</h2>
+
+    <button onclick="checkNumber()">Check Number</button>
+
+    <script>
+        function checkNumber() {
+            var num = prompt("Enter a number:");
+
+            num = Number(num);
+
+            if (num > 0) {
+                alert("Positive number.");
+            }
+            else if (num < 0) {
+                alert("Negative number.");
+            }
+            else if (num === 0) {
+                alert("Zero.");
+            }
+            else {
+                alert("Invalid input!");
+            }
+        }
+    </script>
+
+</body>
+</html>
